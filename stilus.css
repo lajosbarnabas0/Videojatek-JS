@@ -1,0 +1,197 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(kepek/alaphtmlkepek/flat-design-pixel-art-cloud-illustration_23-2150176371.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    max-width: 85rem;
+    font-size: 20px;
+    margin: auto;
+    color: white;
+}
+
+#hatter{
+    background-color: rgb(32, 32, 104);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 18px;
+    border-radius: 3px;
+}
+
+#intro{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#mariobody{
+    background-image: url(kepek/mariokepek/mariobg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 85rem;
+    margin: auto;
+    text-align: justify;
+    color: white;
+}
+
+#mariohatter{
+    background-color: #CC0000;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    border-radius: 3px;
+}
+
+#pacmanbody{
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 85rem;
+    font-size: 20px;
+    margin: auto;
+    text-align: justify;
+    color: black;
+    background-image: url(kepek/pacmankepek/pacmanbg.jpg);
+}
+#pacmanhatter{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    background-color: #29ADB2;
+    color: black;
+    border-radius: 3px;
+}
+#doomhatter{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    background-color: rgb(130, 126, 126);
+    border-radius: 3px;
+}
+#doombody{
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 85rem;
+    font-size: 20px;
+    margin: auto;
+    text-align: justify;
+    color: black;
+    background-image: url(kepek/doomkepek/bg.jpg);
+}
+
+#minecraftbody{
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 85rem;
+    font-size: 20px;
+    margin: auto;
+    text-align: justify;
+    color: black;
+    background-image: url(kepek/minecraftkepek/hatter.jpg);
+}
+#minecrafthatter{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    background-color: rgb(10, 151, 10);
+    border-radius: 3px;
+}
+
+#NAVSÁV
+
+
+#SZOVEGEKESKEPEK
+
+.header1{
+    text-align: right;
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+h3{
+    text-indent: 15px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: left;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bal{
+    float: left;
+}
+
+.jobb{
+    float: right;
+}
+
+img{
+    margin: 15px;
+    border-radius: 8px;
+    display: flex;
+    border: 3px inset rgb(208, 232, 240);
+}
+
+.doboz{
+    display: flex;
+    flex-direction: row;
+}
+
+#kiskep{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    border: #101820 solid 0.5px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.card_first_page{
+    background-color: rgb(32, 32, 104);
+}
+
+.card_second_page{
+    background-color:#CC0000;
+}
+
+.card_third_page{
+    background-color: rgb(130, 126, 126);
+}
+
+.card_fourth_page{
+    background-color: #29ADB2;
+}
+
+.card_fifth_page{
+    background-color: rgb(10, 151, 10);
+}
+
+.nav-link{
+    position: relative;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+.nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.header1{
+    text-align: center;
+    margin-bottom: 20px;
+}
